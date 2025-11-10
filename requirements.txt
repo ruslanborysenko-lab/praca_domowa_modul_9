@@ -1,0 +1,24 @@
+# Core dependencies
+streamlit
+python-dotenv
+
+# OpenAI + Langfuse
+openai==1.47.0
+langfuse<3.0.0
+httpx<0.28.0
+
+# AWS
+boto3
+
+# Data science
+pandas
+numpy
+
+# Machine Learning
+pycaret
+mlflow
+
+# Visualization
+matplotlib
+seaborn
+plotly
