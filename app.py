@@ -13,13 +13,12 @@ from langfuse.decorators import observe
 from langfuse.openai import OpenAI
 
 # Wczytanie zmiennych środowiskowych
-load_dotenv()
-env = dotenv_values(".env")
+load_dotenv()  # Wczytuje .env jeśli istnieje (lokalnie)
 
-# Konfiguracja Langfuse (automatycznie pobiera zmienne z env)
-os.environ["LANGFUSE_SECRET_KEY"] = env.get("LANGFUSE_SECRET_KEY", "")
-os.environ["LANGFUSE_PUBLIC_KEY"] = env.get("LANGFUSE_PUBLIC_KEY", "")
-os.environ["LANGFUSE_HOST"] = env.get("LANGFUSE_HOST", "https://cloud.langfuse.com")
+# Konfiguracja Langfuse - używa os.environ (działa lokalnie i na Digital Ocean)
+os.environ["LANGFUSE_SECRET_KEY"] = os.getenv("LANGFUSE_SECRET_KEY", "")
+os.environ["LANGFUSE_PUBLIC_KEY"] = os.getenv("LANGFUSE_PUBLIC_KEY", "")
+os.environ["LANGFUSE_HOST"] = os.getenv("LANGFUSE_HOST", "https://cloud.langfuse.com")
 
 # Konfiguracja strony
 st.set_page_config(
@@ -56,7 +55,7 @@ user_input = st.text_area(
 )
 
 # Inicjalizacja OpenAI z Langfuse
-openai_client = OpenAI(api_key=env["OPENAI_API_KEY"])
+openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # ładujemy model wytrenowany
 s3 = boto3.client("s3",)
