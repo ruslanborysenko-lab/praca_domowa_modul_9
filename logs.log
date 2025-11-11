@@ -1,0 +1,218 @@
+2025-11-11 09:18:09,888:WARNING:/Applications/Conda/miniconda3/envs/praca_domowa_modul_9/lib/python3.11/site-packages/scipy/__init__.py:155: UserWarning: A NumPy version >=1.18.5 and <1.26.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+
+2025-11-11 09:18:24,390:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-11-11 09:18:24,390:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-11-11 09:18:24,390:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-11-11 09:18:24,391:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-11-11 09:18:28,099:INFO:Initializing load_model()
+2025-11-11 09:18:28,100:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmpyuxtjbgo, platform=None, authentication=None, verbose=True)
+2025-11-11 09:19:03,891:INFO:Initializing load_model()
+2025-11-11 09:19:03,891:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmpt1zdrgpd, platform=None, authentication=None, verbose=True)
+2025-11-11 09:19:03,900:INFO:Initializing load_model()
+2025-11-11 09:19:03,900:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmpii5vw53s, platform=None, authentication=None, verbose=True)
+2025-11-11 09:19:10,739:INFO:Initializing predict_model()
+2025-11-11 09:19:10,739:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13ecde210>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5 km Czas', '5 km Tempo',
+                                             'Tempo Stabilność', 'Tempo'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć', 'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include...
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Kategoria wiekowa'],
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', HuberRegressor(alpha=0.5, epsilon=1.1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13d96dee0>)
+2025-11-11 09:19:10,740:INFO:Checking exceptions
+2025-11-11 09:19:10,740:INFO:Preloading libraries
+2025-11-11 09:19:10,740:INFO:Set up data.
+2025-11-11 09:19:10,756:INFO:Set up index.
+2025-11-11 09:21:18,106:INFO:Initializing load_model()
+2025-11-11 09:21:18,106:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmp7c59_3gh, platform=None, authentication=None, verbose=True)
+2025-11-11 09:21:48,930:INFO:Initializing load_model()
+2025-11-11 09:21:48,931:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmpvex506x2, platform=None, authentication=None, verbose=True)
+2025-11-11 09:21:48,951:INFO:Initializing load_model()
+2025-11-11 09:21:48,952:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmp356uvavw, platform=None, authentication=None, verbose=True)
+2025-11-11 09:21:51,236:INFO:Initializing predict_model()
+2025-11-11 09:21:51,236:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13ecec850>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5 km Czas', '5 km Tempo',
+                                             'Tempo Stabilność', 'Tempo'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć', 'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include...
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Kategoria wiekowa'],
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', HuberRegressor(alpha=0.5, epsilon=1.1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13ec83740>)
+2025-11-11 09:21:51,236:INFO:Checking exceptions
+2025-11-11 09:21:51,237:INFO:Preloading libraries
+2025-11-11 09:21:51,238:INFO:Set up data.
+2025-11-11 09:21:51,243:INFO:Set up index.
+2025-11-11 09:22:26,231:INFO:Initializing load_model()
+2025-11-11 09:22:26,232:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmpbgfgu4x7, platform=None, authentication=None, verbose=True)
+2025-11-11 09:22:26,291:INFO:Initializing load_model()
+2025-11-11 09:22:26,292:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmpzcidmtwm, platform=None, authentication=None, verbose=True)
+2025-11-11 09:22:29,445:INFO:Initializing predict_model()
+2025-11-11 09:22:29,445:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x1400e3a90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5 km Czas', '5 km Tempo',
+                                             'Tempo Stabilność', 'Tempo'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć', 'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include...
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Kategoria wiekowa'],
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', HuberRegressor(alpha=0.5, epsilon=1.1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13ec83380>)
+2025-11-11 09:22:29,446:INFO:Checking exceptions
+2025-11-11 09:22:29,446:INFO:Preloading libraries
+2025-11-11 09:22:29,447:INFO:Set up data.
+2025-11-11 09:22:29,462:INFO:Set up index.
+2025-11-11 09:23:00,152:INFO:Initializing load_model()
+2025-11-11 09:23:00,152:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmpsembxela, platform=None, authentication=None, verbose=True)
+2025-11-11 09:23:00,163:INFO:Initializing load_model()
+2025-11-11 09:23:00,163:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmpplh1li7v, platform=None, authentication=None, verbose=True)
+2025-11-11 09:23:02,730:INFO:Initializing predict_model()
+2025-11-11 09:23:02,732:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x1400d4110>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5 km Czas', '5 km Tempo',
+                                             'Tempo Stabilność', 'Tempo'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć', 'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include...
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Kategoria wiekowa'],
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', HuberRegressor(alpha=0.5, epsilon=1.1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x140096f20>)
+2025-11-11 09:23:02,732:INFO:Checking exceptions
+2025-11-11 09:23:02,732:INFO:Preloading libraries
+2025-11-11 09:23:02,732:INFO:Set up data.
+2025-11-11 09:23:02,739:INFO:Set up index.
+2025-11-11 09:23:29,417:INFO:Initializing load_model()
+2025-11-11 09:23:29,417:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmpnd8d0fam, platform=None, authentication=None, verbose=True)
+2025-11-11 09:23:29,462:INFO:Initializing load_model()
+2025-11-11 09:23:29,462:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmpmbyvxu4e, platform=None, authentication=None, verbose=True)
+2025-11-11 09:23:32,711:INFO:Initializing predict_model()
+2025-11-11 09:23:32,711:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x14017f750>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5 km Czas', '5 km Tempo',
+                                             'Tempo Stabilność', 'Tempo'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć', 'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include...
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Kategoria wiekowa'],
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', HuberRegressor(alpha=0.5, epsilon=1.1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x110f28680>)
+2025-11-11 09:23:32,711:INFO:Checking exceptions
+2025-11-11 09:23:32,711:INFO:Preloading libraries
+2025-11-11 09:23:32,714:INFO:Set up data.
+2025-11-11 09:23:32,726:INFO:Set up index.
+2025-11-11 09:24:18,298:INFO:Initializing load_model()
+2025-11-11 09:24:18,299:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmp77_q2prk, platform=None, authentication=None, verbose=True)
+2025-11-11 09:24:18,347:INFO:Initializing load_model()
+2025-11-11 09:24:18,347:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmpoe8obhlj, platform=None, authentication=None, verbose=True)
+2025-11-11 09:24:20,482:INFO:Initializing predict_model()
+2025-11-11 09:24:20,482:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x14017c390>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5 km Czas', '5 km Tempo',
+                                             'Tempo Stabilność', 'Tempo'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć', 'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include...
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Kategoria wiekowa'],
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', HuberRegressor(alpha=0.5, epsilon=1.1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x10f8237e0>)
+2025-11-11 09:24:20,483:INFO:Checking exceptions
+2025-11-11 09:24:20,483:INFO:Preloading libraries
+2025-11-11 09:24:20,483:INFO:Set up data.
+2025-11-11 09:24:20,489:INFO:Set up index.
+2025-11-11 09:24:48,924:INFO:Initializing load_model()
+2025-11-11 09:24:48,925:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmp_naucyns, platform=None, authentication=None, verbose=True)
+2025-11-11 09:24:49,177:INFO:Initializing load_model()
+2025-11-11 09:24:49,177:INFO:load_model(model_name=/var/folders/kv/fflnzx6d3x9g66bs_xr230h40000gn/T/tmphqr117l0, platform=None, authentication=None, verbose=True)
+2025-11-11 09:24:50,524:INFO:Initializing predict_model()
+2025-11-11 09:24:50,524:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x1402191d0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['5 km Czas', '5 km Tempo',
+                                             'Tempo Stabilność', 'Tempo'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć', 'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include...
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Kategoria wiekowa'],
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', HuberRegressor(alpha=0.5, epsilon=1.1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x140095440>)
+2025-11-11 09:24:50,526:INFO:Checking exceptions
+2025-11-11 09:24:50,527:INFO:Preloading libraries
+2025-11-11 09:24:50,527:INFO:Set up data.
+2025-11-11 09:24:50,535:INFO:Set up index.
