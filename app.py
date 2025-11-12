@@ -188,8 +188,7 @@ if st.button("🔮 Analizuj dane", type="primary", use_container_width=True):
                         
                         # Dodanie obliczonych kolumn
                         predict_df['5 km Tempo'] = (predict_df['5 km Czas'] / 60) / 5
-                        predict_df['Tempo Stabilność'] = 0.0415  
-                        predict_df['Tempo'] = predict_df['5 km Tempo']
+                   
                         
                         # Zapisanie DataFrame w session_state dla kolejnych etapów
                         st.session_state['predict_df'] = predict_df
