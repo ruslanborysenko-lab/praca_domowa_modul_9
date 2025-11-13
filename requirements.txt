@@ -1,6 +1,6 @@
 # Core dependencies
 streamlit
-python-dotenv
+python-dotenv==1.2.1
 
 # OpenAI + Langfuse
 openai==1.47.0
@@ -13,14 +13,16 @@ fsspec
 s3fs
 
 # Data science
-pandas
-numpy
+pandas==2.1.4
+numpy==1.26.4
 
 # Machine Learning
-pycaret
+pycaret==3.3.2
+scikit-learn==1.4.2
+scipy==1.11.4
 mlflow
 
 # Visualization
-matplotlib
-seaborn
-plotly
+matplotlib==3.7.5
+seaborn==0.13.2
+plotly==6.4.0
